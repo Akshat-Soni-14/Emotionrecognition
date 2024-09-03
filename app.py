@@ -1,7 +1,7 @@
 import numpy as np
 import streamlit as st
 import cv2
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 
 st.header('Emotion Recognition System!')
 st.subheader('I will detect how you are feeling right now :)')
